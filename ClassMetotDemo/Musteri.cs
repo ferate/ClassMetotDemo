@@ -6,5 +6,11 @@ namespace ClassMetotDemo
 {
     class Musteri
     {
+        public int Id { get; set; }
+        public string Adi { get; set; }
+        public string Soyadi { get; set; }        
+        public string Telefon { get; set; }
+        public string EPosta { get; set; }
+        public string Adres { get; set; }
     }
 }
